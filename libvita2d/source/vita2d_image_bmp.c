@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include <psp2/io/fcntl.h>
 #include <psp2/gxm.h>
-#include "vita2d.h"
+#include "vita2d_fbo.h"
 
 #define BMP_SIGNATURE (0x4D42)
 

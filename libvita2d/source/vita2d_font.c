@@ -5,7 +5,7 @@
 #include <freetype2/ft2build.h>
 #include FT_CACHE_H
 #include FT_FREETYPE_H
-#include "vita2d.h"
+#include "vita2d_fbo.h"
 #include "texture_atlas.h"
 #include "bin_packing_2d.h"
 #include "utils.h"

@@ -10,7 +10,7 @@
 #include <psp2/kernel/processmgr.h>
 #include <psp2/gxm.h>
 
-#include <vita2d.h>
+#include <vita2d_fbo.h>
 #include "includes/lcd3x_v.h"
 #include "includes/lcd3x_f.h"
 #include "includes/gtu_v.h"

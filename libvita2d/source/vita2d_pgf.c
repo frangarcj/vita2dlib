@@ -6,7 +6,7 @@
 #include <stdarg.h>
 #include <malloc.h>
 #include <math.h>
-#include "vita2d.h"
+#include "vita2d_fbo.h"
 #include "texture_atlas.h"
 #include "bin_packing_2d.h"
 #include "utils.h"

@@ -4,7 +4,7 @@
 #include <psp2/io/fcntl.h>
 #include <psp2/gxm.h>
 #include <jpeglib.h>
-#include "vita2d.h"
+#include "vita2d_fbo.h"
 
 static vita2d_texture *_vita2d_load_JPEG_generic(struct jpeg_decompress_struct *jinfo, struct jpeg_error_mgr *jerr)
 {
