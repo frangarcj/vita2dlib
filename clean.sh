@@ -9,5 +9,4 @@ if [ -z "${VITASDK+x}" ]; then
     export PATH=$VITASDK/bin:$PATH
 fi
 
-./clean.sh
-make -C libvita2d install
+make -C libvita2d clean
