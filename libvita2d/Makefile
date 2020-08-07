@@ -12,7 +12,7 @@ SHADERS    = shader/compiled/clear_v_gxp.o shader/compiled/clear_f_gxp.o \
 PREFIX  ?= ${VITASDK}/arm-vita-eabi
 CC      = arm-vita-eabi-gcc
 AR      = arm-vita-eabi-ar
-CFLAGS  = -Wl,-q -Wall -Og -g -DDEBUG_BUILD -I$(INCLUDES) -I$(VITASDK)/arm-vita-eabi/include/freetype2 -ffat-lto-objects -flto
+CFLAGS  = -Wl,-q -Wall -O3 -I$(INCLUDES) -I$(VITASDK)/arm-vita-eabi/include/freetype2 -ffat-lto-objects -flto
 ASFLAGS = $(CFLAGS)
 
 all: $(TARGET_LIB)
