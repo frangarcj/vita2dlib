@@ -10,4 +10,5 @@ if [ -z "${VITASDK+x}" ]; then
 fi
 
 ./clean.sh
+make -C libvita2d
 make -C libvita2d install
